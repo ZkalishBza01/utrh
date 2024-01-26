@@ -1,0 +1,24 @@
+
+.input_left {
+    /* margin-right: -10px; */
+    border-right: none;
+    height: 50px;
+    width: 350px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.input_right
+ {
+    height: 50px;
+    border-left: none;
+    
+    border-top-right-radius: 15px;
+    
+    border-bottom-right-radius: 15px;
+}
+.conteiner_input
+ {
+   
+    margin-bottom: 20px;
+    display: flex!important;
+}

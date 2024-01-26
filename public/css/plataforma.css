@@ -1,0 +1,527 @@
+body{
+    padding-right: 0 !important;
+}
+
+.bg-dark{
+    transition: all 1s ease;
+}
+
+.bg-light{
+    transition: all 1s ease;
+}
+
+#menu {
+    background-color: #0c1873;
+    padding-bottom:3px !important; 
+    padding-top:3px !important;
+  }
+
+.nav-item a:hover{
+    background-color: #54D8A9 !important;
+}
+
+.icon_menu {
+    color: #fff;
+    font-size: 2rem;
+}
+
+#botonMenu {
+    border: none;
+}
+
+#logoHeader{
+    padding:0px !important; 
+    margin:0px !important;
+}
+
+.card{
+    -webkit-box-shadow: 4px 7px 16px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 7px 16px -13px rgba(0,0,0,0.75);
+    box-shadow: 4px 7px 16px -13px rgba(0,0,0,0.75);
+}
+
+/* ---------------------------------------------ICONOS DE REDES SOCIALES----------------------------------------------------- */
+.demopadding {
+    text-align:center;
+}
+.icon {
+    position:relative;
+    text-align:center;
+    width:0px;
+    height:0px;
+    padding:20px;
+    border-radius: 	20px; 
+    -moz-border-radius: 		20px;
+    -webkit-border-radius: 		20px;
+    -khtml-border-radius: 		20px; 	
+    color:#FFFFFF;
+}
+.icon i {
+    font-size:20px;
+    position:absolute;
+    left:12px;
+    top:10px;
+}
+.icon.social {
+    float:left;
+    margin:0 5px 0 0;
+    cursor:pointer;
+    background:#6d6e71 ;
+    color:#262626;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s; 	
+}
+.social2 {
+    background: #f7f7f7 !important;
+    border: 1px solid #cacad4;
+}
+.icon.social:hover {
+    color:white;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-filter:	drop-shadow(0 1px 10px rgba(0,0,0,.8));
+    -moz-filter: 	drop-shadow(0 1px 10px rgba(0,0,0,.8));
+    -ms-filter: 	drop-shadow(0 1px 10px rgba(0,0,0,.8));
+    -o-filter: 		drop-shadow(0 1px 10px rgba(0,0,0,.8));
+    filter: 		drop-shadow(0 1px 10px rgba(0,0,0,.8));		
+}
+.icon.social.fb:hover {
+    background:#3a559f !important;
+}
+.icon.social.ins:hover {
+    background:#c53460 !important;
+}
+.icon.social.tw:hover {
+    background:#50abf1 !important;
+}
+.icon.social.tw:hover {
+    background:#50abf1 !important;
+}
+.icon.social.in:hover {
+    background:#0077b7 !important;
+}
+.icon.social.fb i {
+    left:15px;
+}
+
+/* ---------------------------------------------ESTRELLAS CALIFICACION----------------------------------------------------- */
+#clasificacion {
+    text-align: center;
+}
+.clasificacion>label {
+    font-size: 30px;
+}
+
+.clasificacion>input[type="radio"] {
+    display: none;
+}
+
+.clasificacion>label {
+    color: grey;
+}
+
+.clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+.clasificacion>label:hover, .clasificacion>label:hover ~ label {
+    color: orange;
+}
+
+.clasificacion>input[type="radio"]:checked ~ label {
+    color: orange;
+}
+  
+/* ---------------------------------------------IMAGEN DE CANDIDATO----------------------------------------------------- */
+#file-input{
+    display: none;
+}
+
+.image-upload{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #999;
+}
+
+.padre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+.sombreado{
+    -webkit-box-shadow: 5px 5px 5px #999;
+    -moz-box-shadow: 5px 5px 5px #999;
+    box-shadow: 5px 5px 5px #999;
+}
+
+.tamano_registro{
+    width: 150px;
+    height: 50px;
+    /* margin: 10px; */
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.verde_turquesa{
+    background-color: #54D8A9;
+}
+
+/* Blocks 2*/
+.site-blocks-header{
+    min-height: 70px;
+    height: 70px; 
+    background-color: #0c1873;
+}
+
+.pre{
+    white-space: pre-wrap;
+}
+
+.red{
+    color: #F35151;
+}
+
+.gris_encabezado{
+    background-color: #dfdddc;
+}
+
+.sub_encabezado{
+    background-color: #0c1873;
+}
+
+.gris_cards{
+    background-color: #f7f7f7;
+}
+
+.img_responsive{
+    width: 100%;
+    height: auto;
+}
+
+/* .border_gris{
+    border: 2px solid #cacad4;
+} */
+
+.log_fondo{
+    width: 200px;
+    height: auto;
+    margin-top: 54px
+}
+
+.rec_sec:hover, .outsourcing:hover, .psicometrias:hover{
+    cursor: pointer;
+}
+
+/* ---------------------------------------------EFECTOS ZOOM IMAGENES----------------------------------------------------- */
+.zoom_out, .zoom_in{
+    transition: transform 3s;
+}
+.zoom_out:hover {
+    -webkit-transform: scale(1.4); 
+    -moz-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    transform: scale(1.4);
+    z-index: 1;
+}
+
+.zoom_in:hover {
+    -webkit-transform: scale(0.9); 
+    -moz-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+    z-index: 1;
+}
+
+/* ---------------------------------------------SLIDER----------------------------------------------------- */
+.slideshow ul, .slideshow ol{
+	list-style: none;
+}
+.slideshow{
+	width: 100%;
+    position: relative;
+}
+
+.slider li, .slider2 li, .slideshow ul{
+	width: 100%;
+}
+
+.slider li, .slider2 li{
+	overflow: hidden;
+}
+
+.slider{
+    width: 100%;
+    height: 346px;
+    background-color: #f7f7f7;
+}
+
+.slider2{
+    width: 100%;
+    height: 280px;
+    /* background-color: #f7f7f7; */
+}
+
+.slider .caption, .slider2 .caption{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	padding: 15px 50px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* align-items: center; */
+
+	text-align: justify !important;
+	/* color: #fff; */
+    z-index: 1;
+    
+}
+
+.slider2 .caption{
+    padding-top: 90px;
+}
+
+.slider .caption h1, .slider2 .caption h1{
+	font-size: 50px;
+}
+
+.slider .caption p, .slider2 .caption p{
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+.pagination_slider, .pagination_slider2{
+	position: absolute;
+	top: 90%;
+	width: 100%;
+	display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.pagination_slider li, .pagination_slider2 li{
+	font-size: 20px;
+	margin: 2px 5px;
+	color: #858585;
+	cursor: pointer;
+}
+
+.left_slider, .left_slider2, .right_slider, .right_slider2{
+	position: absolute;
+	top: 0;
+	height: 100%;
+
+	display: flex;
+	align-items: center;
+
+	color: black;
+	font-size: 25px;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.left_slider, .left_slider2{
+	left: 10px;
+}
+
+.right_slider, .right_slider2{
+	right: 10px;
+}
+
+/* ---------------------------------------------TIPOGRAFIA MONSERRAT----------------------------------------------------- */
+.Montserrat_Light{
+    font-family: 'Montserrat_Light', sans-serif;
+}
+
+.Montserrat_Regular{
+    font-family: 'Montserrat_Regular', sans-serif;
+}
+
+.Montserrat_Bold{
+    font-family: 'Montserrat_Bold', sans-serif;
+}
+
+.Montserrat_ExtraBold{
+    font-family: 'Montserrat_ExtraBold', sans-serif;
+}
+
+.Montserrat_Black{
+    font-family: 'Montserrat_Black', sans-serif;
+}
+
+/* ---------------------------------------------HERRAMIENTAS----------------------------------------------------- */
+.contenedor_herramientas{
+    width: 17%;
+    height: auto;
+}
+
+.icono_herram {
+    width: 50%;
+    margin: auto;
+}
+
+/* ---------------------------------------------MEDIA QUERYS----------------------------------------------------- */
+@media (max-width: 1156px) {
+    .site-blocks-header{
+        display: none !important;
+    }
+
+    .avanceRegistro{
+        display: none !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    #menu {
+        padding-top: 0;
+        padding-bottom: 0;
+        background-color: #0c1873;
+        border-bottom: none;        
+        -webkit-transition: background-color 0.5s ease-in-out;
+        transition: background-color 0.5s ease-in-out;
+      }
+
+      #menu.bg_custom {
+        background-color: #0c1873;
+        -webkit-transition: background-color 0.9s ease-in-out;
+        transition: background-color 0.9s ease-in-out;
+      }
+}
+
+@media (min-width: 1156px) {
+    .avanceRegistroNumero{
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .slider_Desaparece_1200{
+        display: none;
+    }
+
+    .slider{
+        height: 290px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .slider_Desaparece_900{
+        display: none;
+    }
+
+    .slider{
+        height: 215px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .slider_Desaparece_900{
+        display: block;
+    }
+
+    .slider{
+        height: 318px;
+    }
+}
+
+@media screen and (max-width: 767px) and (orientation: landscape){
+
+    .site-blocks-cover, .site-blocks-cover .row-custom {
+        min-height: 350px;
+        height: calc(350px); 
+    }
+
+    #navbarSupportedContent{
+        height: auto;
+        max-height: 250px;
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+	.slider .caption h1{
+		font-size: 35px;
+	}
+
+	.left_slider, .right_slider, .left_slider2, .right_slider2{
+		font-size: 30px;
+    }
+
+	.pagination_slider, .pagination_slider2{
+		display: none;
+    }
+    
+    .contenedor_herramientas{
+        width: 40% !important;
+        height: auto;
+    }
+
+    .log_fondo{
+        width: 150px;
+        height: auto;
+    }
+
+    .slider{
+        height: 264px;
+    }
+}
+
+@media all and (max-width:510px) {
+    .slider .caption span, .slider2 .caption span {
+        font-size: 0.7rem;
+    }
+    
+    .slider_Desaparece_1200{
+        display: none;
+    }
+
+    .slider_Desaparece_900{
+        display: none;
+    }
+
+    .contenedor_herramientas{
+        width: 50% !important;
+        height: auto;
+    }
+
+    .slider{
+        height: 264px;
+    }
+} 
+
+@media all and (max-width:480px) {
+    .button_custom { 
+        width: 100%; 
+        display:block; 
+    }
+
+    .slider{
+        height: 160px;
+    }
+
+    h1{
+        font-size: 2.4rem !important;
+    }
+
+    .slider2{
+        height: 220px;
+    }
+
+    .slider2 .caption{
+        padding-top: 50px;
+    }
+} 
