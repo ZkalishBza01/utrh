@@ -15,7 +15,7 @@ use App\Http\Controllers\ReclutadorController;
 
 Route::get('dashboard', [PageController::class, 'dashboard'])
 
-->name('dashboard');
+->name('dashboard'); 
 Route::get('/', [PageController::class, 'dashboard'])
 
 ->name('dashboard');
